@@ -44,7 +44,6 @@ public class BookManagement {
                     }
                     break;
                 case 3:
-                    // Sắp xếp sách theo lợi nhuận tăng dần
                     for (int i = 0; i < bookCount - 1; i++) {
                         for (int j = i + 1; j < bookCount; j++) {
                             if (library[i].getInterest() > library[j].getInterest()) {
